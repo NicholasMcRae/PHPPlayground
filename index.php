@@ -10,8 +10,16 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        echo 'Hello world!';
+        <?php echo 'Hello world!'?>
+        <br/>
+        <?php EcHo 'Case insensitive echo';
+        /*
+         Throwing a comment in here. Looking through a syntax book and messing around
+         */
+        require_once 'variables.php';
+        
+        echo $tempInt * $tempInt;
+        
         ?>
     </body>
 </html>
