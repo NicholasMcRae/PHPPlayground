@@ -12,14 +12,22 @@ and open the template in the editor.
     <body>
         <?php echo 'Hello world!'?>
         <br/>
-        <?php EcHo 'Case insensitive echo';
+        <?php         
         /*
          Throwing a comment in here. Looking through a syntax book and messing around
-         */
+         */        
+        EcHo 'Case insensitive echo';        
+        ?>       
+        <br/>
+        <?php
         require_once 'variables.php';
-        
-        echo $tempInt * $tempInt;
-        
+        echo $tempInt * $tempInt;        
+        ?>
+        <br/>
+        <?php
+        require_once 'TestClass.php';
+        $obj = new TestClass();
+        $obj->testMethod();
         ?>
     </body>
 </html>
