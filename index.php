@@ -20,7 +20,7 @@ and open the template in the editor.
         ?>       
         <br/>
         <?php
-        require_once 'variables.php';
+        include 'variables.php';
         echo $tempInt * $tempInt;        
         ?>
         <br/>

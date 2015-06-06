@@ -1,0 +1,9 @@
+Factory Pattern
+- use object to construct objects
+- one point of maintenance
+
+Singleton
+- single object
+- be wary because it introduces global state
+
+MVC
